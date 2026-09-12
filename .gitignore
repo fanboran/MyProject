@@ -1,0 +1,48 @@
+# ── 构建产物 ──
+build/
+build-*/
+out/
+MyGame/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+
+# ── CMake 生成物 ──
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+*.cmake.stamp
+
+# ── Qt 生成物 ──
+*_autogen/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+.qmake.stash
+
+# ── Qt Creator / IDE 配置 ──
+CMakeLists.txt.user*
+*.user
+*.user.*
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── 系统文件 ──
+Thumbs.db
+.DS_Store
+desktop.ini
